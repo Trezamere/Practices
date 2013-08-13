@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practices.Mvvm", "Practices
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practices.Mvvm.Services", "Practices.Mvvm.Services\Practices.Mvvm.Services.csproj", "{673F284A-CD8F-4D54-A97D-C6A12EE613EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practices.Test.RhinoMocks", "Practices.Test.RhinoMocks\Practices.Test.RhinoMocks.csproj", "{10CF4EA8-A053-4B9B-AFD7-120C7283E977}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{673F284A-CD8F-4D54-A97D-C6A12EE613EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{673F284A-CD8F-4D54-A97D-C6A12EE613EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{673F284A-CD8F-4D54-A97D-C6A12EE613EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10CF4EA8-A053-4B9B-AFD7-120C7283E977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CF4EA8-A053-4B9B-AFD7-120C7283E977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CF4EA8-A053-4B9B-AFD7-120C7283E977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CF4EA8-A053-4B9B-AFD7-120C7283E977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

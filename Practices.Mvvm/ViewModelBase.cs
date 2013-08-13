@@ -5,7 +5,7 @@ using Practices.Mvvm.Annotations;
 
 namespace Practices.Mvvm
 {
-    public abstract class ViewModelBase : INotifyPropertyChanged
+    public abstract partial class ViewModelBase : INotifyPropertyChanged
     {
         #region Implementations of INotifyPropertyChanged
 
