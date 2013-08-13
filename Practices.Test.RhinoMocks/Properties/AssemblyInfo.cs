@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Practices.Test.RhinoMocks")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("SRA International, Inc.")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Practices.Test.RhinoMocks")]
-[assembly: AssemblyCopyright("Copyright © SRA International, Inc. 2013")]
+[assembly: AssemblyCopyright("Copyright © Trezamere 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

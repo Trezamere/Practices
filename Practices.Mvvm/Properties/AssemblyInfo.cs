@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Practices.Mvvm")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("SRA International, Inc.")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Practices.Mvvm")]
-[assembly: AssemblyCopyright("Copyright © SRA International, Inc. 2013")]
+[assembly: AssemblyCopyright("Copyright © Trezamere 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
