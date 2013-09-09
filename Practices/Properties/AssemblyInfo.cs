@@ -5,7 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Practices.Test.RhinoMocks")]
+[assembly: AssemblyTitle("Practices")]
+
+// Setting ComVisible to false makes the types in this assembly not visible 
+// to COM components.  If you need to access a type in this assembly from 
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("665d11fd-5ad5-41c9-aaff-a777a11c822e")]
+[assembly: Guid("b2d11221-6dec-4718-aa07-2a9c15f70e6b")]
