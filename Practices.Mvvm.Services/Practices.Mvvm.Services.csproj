@@ -50,6 +50,9 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="DialogService.cs" />
     <Compile Include="FrameworkDialogs\FileDialogViewModel.cs" />
     <Compile Include="FrameworkDialogs\FolderBrowse\FolderBrowserDialog.cs" />
