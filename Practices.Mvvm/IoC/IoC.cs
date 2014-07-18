@@ -11,8 +11,6 @@ namespace Practices.Mvvm.IoC
     /// </summary>
     public class IoC
     {
-        #region Dependency and Attached Properties
-
         #region ViewType
         /// <summary>
         /// Attached property supporting view-first design. 
@@ -45,8 +43,6 @@ namespace Practices.Mvvm.IoC
             var view = ServiceLocator.Current.GetInstance(type);
             cp.Content = view;
         }
-        #endregion
-
         #endregion
     }
 }
