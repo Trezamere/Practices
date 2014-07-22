@@ -3,8 +3,9 @@ using System.Diagnostics.Contracts;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Interactivity;
+using Practices.Mvvm.Extensions;
 
-namespace baokit.Common.Wpf.Behaviors
+namespace Practices.Mvvm.Behaviors
 {
 	public class ItemsControlAutoScrollBehavior : Behavior<ItemsControl>
 	{
@@ -164,7 +165,7 @@ namespace baokit.Common.Wpf.Behaviors
 		{
 			// If our backing field has a scroll viewer, return it.
 			// Otherwise search the visual tree for one, save it, and return.
-			return _scrollViewer ?? (_scrollViewer = WpfUtilities.FindVisualChild<ScrollViewer>(AssociatedObject));
+            return _scrollViewer ?? (_scrollViewer = AssociatedObject.FindChild<ScrollViewer>());
 		}
 	}
 }

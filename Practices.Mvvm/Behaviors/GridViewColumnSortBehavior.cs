@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Diagnostics.Contracts;
@@ -11,8 +10,9 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Interactivity;
 using System.Windows.Media;
+using Practices.Collections;
 
-namespace baokit.Common.Wpf.Behaviors
+namespace Practices.Mvvm.Behaviors
 {
     /// <summary>
     /// A <see cref="Behavior{T}"/> implementation which will automatically sort a <see cref="ListView"/>.

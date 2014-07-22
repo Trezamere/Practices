@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Interactivity;
 
-namespace baokit.Common.Wpf.Behaviors
+namespace Practices.Mvvm.Behaviors
 {
     public class ScrollViewerAutoScrollBehavior : Behavior<ScrollViewer>
     {

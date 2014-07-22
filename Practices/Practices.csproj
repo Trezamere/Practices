@@ -43,7 +43,9 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Collections\ISorter.cs" />
     <Compile Include="Collections\ObservableItemsCollection.cs" />
+    <Compile Include="Collections\SorterBase.cs" />
     <Compile Include="Extensions\EnumerableExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

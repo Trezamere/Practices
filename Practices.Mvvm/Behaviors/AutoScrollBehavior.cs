@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace baokit.Common.Wpf.Behaviors
+namespace Practices.Mvvm.Behaviors
 {
     /// <summary>
     /// Enumeration of the possible methods a <see cref="ScrollViewer"/> can use to automatically scroll its content.

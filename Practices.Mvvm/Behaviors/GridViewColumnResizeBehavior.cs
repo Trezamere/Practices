@@ -6,7 +6,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Interactivity;
 
-namespace baokit.Common.Wpf.Behaviors
+namespace Practices.Mvvm.Behaviors
 {
 	/// <summary>
 	/// A <see cref="Behavior{T}"/> implementation which will automatically resize the <see cref="GridViewColumn"/>s marked as Auto to the new content.
