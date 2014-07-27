@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Runtime.InteropServices;
@@ -418,6 +419,21 @@ namespace Practices.Win32
         #region Mouse Input Functions
         [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
         public static extern HWND GetCapture();
+        #endregion
+
+        #region Volume Management
+
+        /// <summary>
+        /// Determines whether a disk drive is a removable, fixed, CD-ROM, RAM disk, or network drive.
+        /// </summary>
+        /// <param name="lpRootPathName">
+        /// A trailing backslash is required. If this parameter is NULL, the function uses the root of the current directory.
+        /// </param>
+        /// <returns>The return values specifies the type of drive, which can be one of the <see cref="DriveType"/> values.</returns>
+        /// <remarks>http://msdn.microsoft.com/en-us/library/windows/desktop/aa364939(v=vs.85).aspx</remarks>
+        [DllImport("kernel32.dll")]
+        public static extern DriveType GetDriveType([MarshalAs(UnmanagedType.LPStr)] string lpRootPathName);
+
         #endregion
 
         [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
