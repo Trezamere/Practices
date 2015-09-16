@@ -1,4 +1,4 @@
 Practices
 =========
 
-Collection of misc. libraries regularly used and supporting various design patterns, helpers and standard practices.
+Collection of misc. functions, classes, and libraries regularly used to support various design patterns, helpers and standard practices.
